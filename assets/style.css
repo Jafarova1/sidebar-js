@@ -1,0 +1,112 @@
+.sidebar{
+   height: 100vh;
+   width: 350px;
+   background-color: grey;
+   position: relative;
+   transition: all 0.5s;
+
+}
+.sidebar i{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+
+}
+
+
+.hide{
+    transform: translate(-300px);
+}
+.hideright{
+    transform: translate(300px);
+}
+.hiderdown{
+    transform: translateY(400px);
+
+} 
+
+.sidebar ul{
+    padding-top: 100px;
+    width: 200px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.rightbar{
+    height: 100vh;
+    width: 350px;
+    background-color: pink;
+    position: relative;
+    transition: all 0.5s;
+   
+    
+    
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    
+}
+body{
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-y: scroll; 
+        overflow: hidden; 
+}
+.rightbar i{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+
+}
+.rightbar ul{
+    padding-top: 100px;
+    width: 200px;
+    margin-left: 60px;
+    cursor: pointer;
+
+}
+
+.downbar{
+    width: 150vh;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    transition: all 0.5s;
+    background-color: red;
+    margin-left: 150px;
+    transition: all 0.5s;
+ 
+
+
+ 
+    
+  
+ }
+ .downbar i{
+     font-size: 30px;
+     color: white;
+     position: absolute;
+     top: 15px;
+     right: 15px;
+     cursor: pointer;
+     margin-top: 10px;
+ 
+ }
+ .downbar ul{
+    width: 70px;
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+    margin-left: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+
+} 

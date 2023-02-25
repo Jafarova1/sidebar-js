@@ -1,0 +1,31 @@
+.form input{
+    width: 200px;
+    height: 30px;
+  
+
+}
+.form{
+    background-color: pink;
+    width: 400px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 200px;
+    padding: 50px;
+  text-align: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+ 
+}
+.form button{
+background-color: beige;
+text-align: center;
+
+}
+p{
+    color: red;
+    font-size: 15px;
+
+    
+   
+  
+}
